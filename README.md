@@ -23,13 +23,13 @@ Based on the following text, create prompt-completion pairs for fine-tuning an L
 
 2. Run openai tools to prepare the data for fine-tuning.
 
-```openai tools fine_tunes.prepare_data -f <LOCAL_FILE>```
+    ```openai tools fine_tunes.prepare_data -f <LOCAL_FILE>```
 
 3. Run openai tools to fine-tune the model.
 
-```openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -m <BASE_MODEL>```
+    ```openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -m <BASE_MODEL>```
 
-4. When the job is done, it should display the name of the fine-tuned model.
+4. When the job is done, it will display the name of the fine-tuned model.
 
 ## Usage
 

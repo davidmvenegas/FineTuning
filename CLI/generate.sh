@@ -2,7 +2,7 @@
 
 # Load the .env file
 set -a
-. ./.env
+. ../.env
 set +a
 
 echo '\n$1: Model: '$1
