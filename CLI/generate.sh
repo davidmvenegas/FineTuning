@@ -2,7 +2,7 @@
 
 # Load the .env file
 set -a
-. ../.env
+. ./.env
 set +a
 
 echo '\n$1: Model: '$1
@@ -26,5 +26,5 @@ EOS`
 
 echo `eval ${curl_command} | jq '.choices[]'.text`
 
-# sh generate.sh "text-davinci-003" 0.5 "Explain the difference between humanoid robots and autonomous robots."
-# sh generate.sh "davinci:ft-personal-2023-05-10-06-07-58" 0.5 "Explain the difference between humanoid robots and autonomous robots."
+# sh CLI/generate.sh "text-davinci-003" 0.5 "Explain the difference between humanoid robots and autonomous robots."
+# sh CLI/generate.sh "davinci:ft-personal-2023-05-10-06-07-58" 0.5 "Explain the difference between humanoid robots and autonomous robots."
