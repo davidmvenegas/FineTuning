@@ -1,4 +1,4 @@
-# Fine-tuning OpenAI Models
+# Fine-tuning LLM Models
 
 This guide outlines the steps required to fine-tune OpenAI models using the OpenAI package, CLI, and API.
 
