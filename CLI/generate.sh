@@ -18,7 +18,7 @@ curl https://api.openai.com/v1/completions \
     -d '{
     "model": "$1",
     "prompt": "$3",
-    "max_tokens": 2000,
+    "max_tokens": 1000,
     "temperature": $2
 }' \
 --insecure
